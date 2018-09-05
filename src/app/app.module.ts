@@ -5,11 +5,13 @@ import { SharedModule } from '@shared/shared.module';
 
 import { AppComponent } from './app.component';
 import { PageComponent } from './page/page.component';
+import { OrganismsComponent } from './page/organisms/organisms.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageComponent
+    PageComponent,
+    OrganismsComponent
   ],
   imports: [
     BrowserModule,
