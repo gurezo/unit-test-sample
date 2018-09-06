@@ -1,0 +1,703 @@
+[33m06 09 2018 09:30:14.412:WARN [karma]: [39mNo captured browser, open http://localhost:9876/
+[32m06 09 2018 09:30:14.418:INFO [karma]: [39mKarma v1.7.1 server started at http://0.0.0.0:9876/
+[32m06 09 2018 09:30:14.419:INFO [launcher]: [39mLaunching browser Chrome with unlimited concurrency
+[32m06 09 2018 09:30:14.423:INFO [launcher]: [39mStarting browser Chrome
+[33m06 09 2018 09:30:20.099:WARN [karma]: [39mNo captured browser, open http://localhost:9876/
+[32m06 09 2018 09:30:20.253:INFO [Chrome 68.0.3440 (Mac OS X 10.13.6)]: [39mConnected on socket 8WXvPmhrtYGEvAmJAAAA with id 1421764
+Chrome 68.0.3440 (Mac OS X 10.13.6): Executed 0 of 8 SUCCESS (0 secs / 0 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should create the app FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should create the app FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6): Executed 1 of 8 (1 FAILED) (0 secs / 0.057 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should create the app FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should have as title 'app' FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should have as title 'app' FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6): Executed 2 of 8 (2 FAILED) (0 secs / 0.077 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should have as title 'app' FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should render title in a h1 tag FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should render title in a h1 tag FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6): Executed 3 of 8 (3 FAILED) (0 secs / 0.092 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) AppComponent should render title in a h1 tag FAILED
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	'router-outlet' is not a known element:
+	1. If 'router-outlet' is an Angular component, then verify that it is part of this module.
+	2. If 'router-outlet' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("[ERROR ->]<router-outlet></router-outlet>
+	"): ng:///DynamicTestModule/AppComponent.html@0:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6) OrganismsComponent should create FAILED
+	'app-molecules' is not a known element:
+	1. If 'app-molecules' is an Angular component, then verify that it is part of this module.
+	2. If 'app-molecules' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <label for="molecules">organisms parts</label>
+	  [ERROR ->]<app-molecules id="molecules"></app-molecules>
+	</div>
+	"): ng:///DynamicTestModule/OrganismsComponent.html@2:2
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-molecules' is not a known element:
+	1. If 'app-molecules' is an Angular component, then verify that it is part of this module.
+	2. If 'app-molecules' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <label for="molecules">organisms parts</label>
+	  [ERROR ->]<app-molecules id="molecules"></app-molecules>
+	</div>
+	"): ng:///DynamicTestModule/OrganismsComponent.html@2:2
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/page/organisms/organisms.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6) OrganismsComponent should create FAILED
+	'app-molecules' is not a known element:
+	1. If 'app-molecules' is an Angular component, then verify that it is part of this module.
+	2. If 'app-molecules' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <label for="molecules">organisms parts</label>
+	  [ERROR ->]<app-molecules id="molecules"></app-molecules>
+	</div>
+	"): ng:///DynamicTestModule/OrganismsComponent.html@2:2
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-molecules' is not a known element:
+	1. If 'app-molecules' is an Angular component, then verify that it is part of this module.
+	2. If 'app-molecules' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <label for="molecules">organisms parts</label>
+	  [ERROR ->]<app-molecules id="molecules"></app-molecules>
+	</div>
+	"): ng:///DynamicTestModule/OrganismsComponent.html@2:2
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/page/organisms/organisms.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6): Executed 4 of 8 (4 FAILED) (0 secs / 0.125 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) OrganismsComponent should create FAILED
+	'app-molecules' is not a known element:
+	1. If 'app-molecules' is an Angular component, then verify that it is part of this module.
+	2. If 'app-molecules' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <label for="molecules">organisms parts</label>
+	  [ERROR ->]<app-molecules id="molecules"></app-molecules>
+	</div>
+	"): ng:///DynamicTestModule/OrganismsComponent.html@2:2
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-molecules' is not a known element:
+	1. If 'app-molecules' is an Angular component, then verify that it is part of this module.
+	2. If 'app-molecules' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <label for="molecules">organisms parts</label>
+	  [ERROR ->]<app-molecules id="molecules"></app-molecules>
+	</div>
+	"): ng:///DynamicTestModule/OrganismsComponent.html@2:2
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/page/organisms/organisms.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6) PageComponent should create FAILED
+	'app-organisms' is not a known element:
+	1. If 'app-organisms' is an Angular component, then verify that it is part of this module.
+	2. If 'app-organisms' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<h1>page for unit test</h1>
+	[ERROR ->]<app-organisms></app-organisms>
+	"): ng:///DynamicTestModule/PageComponent.html@1:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-organisms' is not a known element:
+	1. If 'app-organisms' is an Angular component, then verify that it is part of this module.
+	2. If 'app-organisms' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<h1>page for unit test</h1>
+	[ERROR ->]<app-organisms></app-organisms>
+	"): ng:///DynamicTestModule/PageComponent.html@1:0
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/page/page.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6) PageComponent should create FAILED
+	'app-organisms' is not a known element:
+	1. If 'app-organisms' is an Angular component, then verify that it is part of this module.
+	2. If 'app-organisms' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<h1>page for unit test</h1>
+	[ERROR ->]<app-organisms></app-organisms>
+	"): ng:///DynamicTestModule/PageComponent.html@1:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-organisms' is not a known element:
+	1. If 'app-organisms' is an Angular component, then verify that it is part of this module.
+	2. If 'app-organisms' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<h1>page for unit test</h1>
+	[ERROR ->]<app-organisms></app-organisms>
+	"): ng:///DynamicTestModule/PageComponent.html@1:0
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/page/page.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6): Executed 5 of 8 (5 FAILED) (0 secs / 0.138 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) PageComponent should create FAILED
+	'app-organisms' is not a known element:
+	1. If 'app-organisms' is an Angular component, then verify that it is part of this module.
+	2. If 'app-organisms' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<h1>page for unit test</h1>
+	[ERROR ->]<app-organisms></app-organisms>
+	"): ng:///DynamicTestModule/PageComponent.html@1:0
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-organisms' is not a known element:
+	1. If 'app-organisms' is an Angular component, then verify that it is part of this module.
+	2. If 'app-organisms' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<h1>page for unit test</h1>
+	[ERROR ->]<app-organisms></app-organisms>
+	"): ng:///DynamicTestModule/PageComponent.html@1:0
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/page/page.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6): Executed 6 of 8 (5 FAILED) (0 secs / 0.189 secs)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6): Executed 7 of 8 (5 FAILED) (0 secs / 0.208 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) MoleculesComponent should create FAILED
+	'app-atom-input-text' is not a known element:
+	1. If 'app-atom-input-text' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-input-text' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  [ERROR ->]<app-atom-input-text></app-atom-input-text>
+	  <app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@1:2
+	'app-atom-button' is not a known element:
+	1. If 'app-atom-button' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-button' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <app-atom-input-text></app-atom-input-text>
+	  [ERROR ->]<app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@2:2
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-atom-input-text' is not a known element:
+	1. If 'app-atom-input-text' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-input-text' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  [ERROR ->]<app-atom-input-text></app-atom-input-text>
+	  <app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@1:2
+	'app-atom-button' is not a known element:
+	1. If 'app-atom-button' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-button' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <app-atom-input-text></app-atom-input-text>
+	  [ERROR ->]<app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@2:2
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/shared/molecules/molecules.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6) MoleculesComponent should create FAILED
+	'app-atom-input-text' is not a known element:
+	1. If 'app-atom-input-text' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-input-text' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  [ERROR ->]<app-atom-input-text></app-atom-input-text>
+	  <app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@1:2
+	'app-atom-button' is not a known element:
+	1. If 'app-atom-button' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-button' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <app-atom-input-text></app-atom-input-text>
+	  [ERROR ->]<app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@2:2
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-atom-input-text' is not a known element:
+	1. If 'app-atom-input-text' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-input-text' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  [ERROR ->]<app-atom-input-text></app-atom-input-text>
+	  <app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@1:2
+	'app-atom-button' is not a known element:
+	1. If 'app-atom-button' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-button' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <app-atom-input-text></app-atom-input-text>
+	  [ERROR ->]<app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@2:2
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/shared/molecules/molecules.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+Chrome 68.0.3440 (Mac OS X 10.13.6): Executed 8 of 8 (6 FAILED) (0 secs / 0.23 secs)
+Chrome 68.0.3440 (Mac OS X 10.13.6) MoleculesComponent should create FAILED
+	'app-atom-input-text' is not a known element:
+	1. If 'app-atom-input-text' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-input-text' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  [ERROR ->]<app-atom-input-text></app-atom-input-text>
+	  <app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@1:2
+	'app-atom-button' is not a known element:
+	1. If 'app-atom-button' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-button' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <app-atom-input-text></app-atom-input-text>
+	  [ERROR ->]<app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@2:2
+	Error: Template parse errors:
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Error: Template parse errors:
+	'app-atom-input-text' is not a known element:
+	1. If 'app-atom-input-text' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-input-text' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  [ERROR ->]<app-atom-input-text></app-atom-input-text>
+	  <app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@1:2
+	'app-atom-button' is not a known element:
+	1. If 'app-atom-button' is an Angular component, then verify that it is part of this module.
+	2. If 'app-atom-button' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("<div>
+	  <app-atom-input-text></app-atom-input-text>
+	  [ERROR ->]<app-atom-button></app-atom-button>
+	</div>
+	"): ng:///DynamicTestModule/MoleculesComponent.html@2:2
+	    at syntaxError node_modules/@angular/compiler/fesm5/compiler.js:1016:1)
+	    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse node_modules/@angular/compiler/fesm5/compiler.js:14813:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate node_modules/@angular/compiler/fesm5/compiler.js:23992:1)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate node_modules/@angular/compiler/fesm5/compiler.js:23979:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23922:48
+	    at Set.forEach (<anonymous>)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents node_modules/@angular/compiler/fesm5/compiler.js:23922:1)
+	    at http://localhost:9876/_karma_webpack_/webpack:/node_modules/@angular/compiler/fesm5/compiler.js:23840:1
+	    at Object.then node_modules/@angular/compiler/fesm5/compiler.js:1007:33)
+	    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents node_modules/@angular/compiler/fesm5/compiler.js:23838:1)
+	Expected undefined to be truthy.
+	    at UserContext.<anonymous> src/app/shared/molecules/molecules.component.spec.ts:23:23)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:388:1)
+	    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke node_modules/zone.js/dist/zone-testing.js:288:1)
+	    at ZoneDelegate.push../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke node_modules/zone.js/dist/zone.js:387:1)
+[1A[2KChrome 68.0.3440 (Mac OS X 10.13.6): Executed 8 of 8 (6 FAILED) (0.352 secs / 0.23 secs)
