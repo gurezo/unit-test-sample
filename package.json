@@ -3,11 +3,19 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
+    "start": "concurrently \"npm run start:mock\" \"npm run start:server\"",
+    "start:client": "ng serve --proxy-config proxy.conf.json",
+    "start:mock": "ng serve --proxy-config proxy.conf.mock.json",
+    "start:server": "node server/index.js",
     "build": "ng build --prod",
+    "build:local": "ng build --prod --base-href /tr21-web/ --deploy-url ./angular/",
+    "build:prod": "ng build --prod --deploy-url ./angular/",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "lint:sass": "./node_modules/sass-lint/bin/sass-lint.js -c sass-lint.yml -v -q",
+    "e2e": "ng e2e",
+    "swagger": "swagger-codegen generate -i ./swagger.yml -l typescript-angular -o ./src/app/http-service",
+    "swagger:server": "swagger-codegen generate -i ./swagger.yml -l nodejs-server -o ./server"
   },
   "private": true,
   "dependencies": {
