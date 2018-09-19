@@ -22,4 +22,10 @@ describe('AtomInputTextComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('DOM TEST', () => {
+    // DOMチェック
+    expect(component).toBeDefined();
+  });
+
 });

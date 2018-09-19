@@ -30,5 +30,4 @@ describe('AtomButtonComponent', () => {
     comp.onClick();
   });
 
-
 });
