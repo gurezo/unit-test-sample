@@ -19,7 +19,16 @@ describe('AtomButtonComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
+  it('DOM TEST', () => {
+    // DOMチェック
+    expect(component).toBeDefined();
   });
+
+  it('click checked', () => {
+    // イベント呼び出しチェック
+    const comp = new AtomButtonComponent();
+    comp.onClick();
+  });
+
+
 });
