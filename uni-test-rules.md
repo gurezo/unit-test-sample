@@ -4,31 +4,28 @@
 ### swagger
 - swagger.ymlで、自動生成されたコードはユニットテスト対象外とする
 
-### コンポーネント
-  - classテスト
-  - DOMテスト
-  - データバインドテスト
-
-<!-- ### model ts ファイル
-  - メンバ変数のチェック
-- Angularの特別なツールを使わず、JasmineならJasmine, MochaならMochaをそのまま使用し、実装する
-  - ※ `*.spec.ts` を実装するだけで、テストを実行してくれる。 -->
-
-### service
-- Observableなオブジェクト（point）を作って、変更があるとSubscribeしている全てに変更を通知する
-- pointに新しい値をpushしています。
-- 実装している画面のコンポーネントに依存せずに単体で、行うこと。
+### 対象ガバレッジ
+- 単純条件カバレッジ(C2：条件網羅率)
+- 関数カバレッジ
 
 ### pipe
 - Pipeは単純なclassであるため、テストクラス内でインスタンスを生成してテストを行う。
-- Angularの特別なツールを使わず、JasmineならJasmine, MochaならMochaをそのまま使用し、実装する
-  - ※ `*.spec.ts` を実装するだけで、テストを実行してくれる。
+
+### service
+- 実装している画面のコンポーネントに依存せずに単体で、行うこと。
+- 他のサービスとの依存がない場合は、インスタンスを生成してテストを行う。
+- 他のサービスとの依存がある場合は、インスタンスを生成してテストを行う。
+
+
+### コンポーネント
+- DOM関与なしでコンポーネントクラスだけのテスト
+- DOMのテストは、コンポーネントを生成してテスト
+- 入出力を伴うテスト(@Input/@Output)
+
+
 
 ### directive
-- directiveは単純なclassであるため、テストクラス内でインスタンスを生成してテストを行う。
 
-### page, template コンポーネント
-- UI操作的なテストは、E2Eテストとするので、今回は対象外とする
 
 ### 別枠：console.logの除去
 - [Stripping all comments and console.logs with ng build --prod, possible?](https://stackoverflow.com/questions/42307317/stripping-all-comments-and-console-logs-with-ng-build-prod-possible)
