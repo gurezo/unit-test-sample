@@ -31,4 +31,11 @@ describe('AtomButtonComponent', () => {
     comp.onClick();
   });
 
+  it('click emit checked', () => {
+    // イベント emit チェック
+    const comp = new AtomButtonComponent();
+    comp.clickEvent.subscribe(value => {
+      expect(value).toBe(true);
+    });
+  });
 });

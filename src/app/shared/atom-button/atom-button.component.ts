@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-atom-button',
@@ -7,12 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AtomButtonComponent implements OnInit {
 
+  @Output() clickEvent = new EventEmitter<boolean>();
+
   constructor() { }
 
   ngOnInit() {
   }
 
   onClick() {
+    this.clickEvent.emit(true);
     alert('onClick()!!!');
   }
 }
