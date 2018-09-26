@@ -1,4 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+// import { DebugElement, ElementRef } from '@angular/core';
+// import { By } from '@angular/platform-browser';
 
 import { AtomButtonComponent } from './atom-button.component';
 
@@ -16,7 +18,6 @@ describe('AtomButtonComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(AtomButtonComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
   it('DOM TEST', () => {
