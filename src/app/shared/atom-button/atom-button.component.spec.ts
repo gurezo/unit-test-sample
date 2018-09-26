@@ -34,8 +34,12 @@ describe('AtomButtonComponent', () => {
   it('click emit checked', () => {
     // イベント emit チェック
     const comp = new AtomButtonComponent();
-    comp.clickEvent.subscribe(value => {
-      expect(value).toBe(true);
-    });
+    // comp.clickEvent.subscribe(value => {
+    //   expect(value).toBe(true);
+    // });
+    spyOn(component.clickEvent, 'emit');
+    component.onClick();
+    expect(component.clickEvent.emit).toHaveBeenCalled();
+    expect(component.clickEvent.emit).toHaveBeenCalledWith(true);
   });
 });
